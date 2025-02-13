@@ -10,5 +10,7 @@ namespace MvcNetCoreProceduresEF.Data
 
         }
         public DbSet<Enfermo> Enfermos { get; set; }
+
+        public DbSet<Doctor> Doctores { get; set; }
     }
 }
