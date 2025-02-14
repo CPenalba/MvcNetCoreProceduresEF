@@ -14,5 +14,7 @@ namespace MvcNetCoreProceduresEF.Data
         public DbSet<Doctor> Doctores { get; set; }
 
         public DbSet<VistaEmpleado> VistasEmpleados { get; set; }
+        public DbSet<Trabajador> Trabajadores { get; set; }
+
     }
 }
